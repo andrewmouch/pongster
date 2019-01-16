@@ -1,0 +1,29 @@
+body{
+	background-image: url(../images/gradientPurple.png);
+	background-size: cover;
+    background-position: center;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 60px;
+}
+
+#buttons{
+	margin-top: 70px;
+	text-align: center;
+}
+
+#find,#join{
+	border-radius: 10px;
+	width: 600px;
+	font-size:50px;
+	font-family: 'Raleway', sans-serif;
+	padding: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 400px;
+	vertical-align: middle;
+	background-color: #c8c8c8;
+}

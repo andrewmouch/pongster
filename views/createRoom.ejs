@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pongster</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <section class="testimonial py-5" id="testimonial">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 py-5 bg-info text-white text-center ">
+                    <div class=" ">
+                        <div class="card-body">
+                            <img src="https://www.freepngimg.com/thumb/ping_pong/12-2-ping-pong-picture-thumb.png" style="width:30%">
+                            <h2 class="py-3">Room Creator</h2>
+                            <p>Create a lobby for your friends and opponents to come in and challenge you!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 py-5 border">
+                    <h4 class="pb-4">Please fill with your details</h4>
+                    <form method="post" action="/rooms/create">
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                              <input id="Full Name" name="fullName" placeholder="Room Name" class="form-control" type="text">
+                            </div>
+                            <div class="form-group col-md-12">
+                              <input id="Image" name="imgUrl" placeholder="Image URL" class="form-control" type="text">
+                            </div>
+                            <div class="form-group col-md-12">
+                                      <textarea id="comment" name="comment" placeholder="Room Description" cols="40" rows="5" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <input type="submit" class="btn btn-success">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

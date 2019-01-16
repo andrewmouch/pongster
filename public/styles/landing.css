@@ -1,0 +1,90 @@
+*,html{
+	padding: 0;
+	margin: 0;
+}
+
+h2{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+
+h1{
+	padding-top: 7%;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	font-size: 400%;
+	color: white;
+}
+
+hr{
+	margin-top: 3%;
+	border: none;
+    background-color: #999999;
+    height: 1px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+	background: url(../images/background.png) no-repeat center center fixed; 
+  	background-size: cover;
+  	/*background-color: #ffa66b;*/
+}
+
+#getStarted{
+	padding-right: 15px; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	border-radius: 20px;
+	height: 50px;
+	width: 200px;
+	border: none;
+	background: #2240e8;
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 17px;
+	vertical-align: middle;
+	text-decoration:none;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+
+#paddleImgButton{
+	height: 19px;
+	width: 15px;
+	padding-right: 10px;
+}
+
+#topButtons{
+	margin-top: 1%;
+	float:right;
+	margin-right: 8.5%;
+}
+
+#signUp,#login{
+	width: 86px;
+	height: 30px;
+	border-radius: 7px;
+}
+
+#signUp{
+	background-color: white;
+	color: #ffa66b;
+	border: none;
+}
+
+#login{
+	background: none;
+	color: white;
+	border: 2px solid white;
+}
+
+a{
+	text-decoration:none;
+}
